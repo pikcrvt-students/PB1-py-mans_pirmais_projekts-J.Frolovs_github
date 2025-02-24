@@ -6,7 +6,7 @@ from time import sleep
    URL: https://www.includehelp.com/python/flush-parameter-in-python-with-print-function.aspx
 """
 # Output is not flushed here
-print("Hello, world!", end='')
+print("Hello, world!", end='', flush='True')
 sleep(5)
 print("Bye!!!")
 
