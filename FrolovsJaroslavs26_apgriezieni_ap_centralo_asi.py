@@ -28,3 +28,11 @@ print()
 print("T O R", flush=True)
 sleep(1)
 
+system('clear')
+print(" T")
+print("  O")
+print("   R")
+sleep(1)
+
+system('clear')
+
