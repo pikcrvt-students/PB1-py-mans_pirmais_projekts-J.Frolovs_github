@@ -3,17 +3,22 @@
 """
    ASCII Animācija. Burtu rotācija ap centralo asi.
 """
+from time import sleep
+
 print("R")
 print(" O")
-print("   T")
+print("   T", flush=True)
+sleep(1)
 
 print(" R")
-roint(" O")
-print(" T")
+print(" O")
+print(" T", flush=True)
+sleep(1)
 
 print("  R")
 print(" O")
-print("T")
+print("T", flush=True)
+sleep(1)
 
 print("T O R")
-
+sleep(1)
